@@ -1,4 +1,5 @@
-# bash experiments/cifar-100.sh
+# nohup sh experiments/cifar-100.sh > out.log   2>&1 &
+# 3212560
 # experiment settings
 DATASET=cifar-100
 N_CLASS=200
@@ -7,7 +8,8 @@ N_CLASS=200
 OUTDIR=outputs/${DATASET}/10-task
 
 # hard coded inputs
-GPUID='0 1 2 3'
+# GPUID='0 1 2 3'
+GPUID=' 1 2 3 '
 CONFIG=configs/cifar-100_prompt.yaml
 REPEAT=1
 OVERWRITE=0

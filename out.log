@@ -1,0 +1,70 @@
+nohup: ignoring input
+************************************
+* STARTING TRIAL 1
+************************************
+Files already downloaded and verified
+*****************************************
+====================== 1 =======================
+Incremental class: Old valid output dimension: 0
+Incremental class: New Valid output dimension: 10
+=> Load Done
+Optimizer is reset!
+*****************************************
+=> Saving class model to: outputs/cifar-100/10-task/coda-p/models/repeat-1/task-1/
+=> Save Done
+validation split name: 1
+ * Val Acc 98.900, Total time 12.22
+====================== 2 =======================
+Incremental class: Old valid output dimension: 10
+Incremental class: New Valid output dimension: 20
+=> Load Done
+Optimizer is reset!
+*****************************************
+=> Saving class model to: outputs/cifar-100/10-task/coda-p/models/repeat-1/task-2/
+=> Save Done
+validation split name: 1
+ * Val Acc 96.600, Total time 5.91
+validation split name: 2
+ * Val Acc 96.000, Total time 5.85
+====================== 3 =======================
+Incremental class: Old valid output dimension: 20
+Incremental class: New Valid output dimension: 30
+=> Load Done
+Optimizer is reset!
+*****************************************
+=> Saving class model to: outputs/cifar-100/10-task/coda-p/models/repeat-1/task-3/
+=> Save Done
+validation split name: 1
+ * Val Acc 94.200, Total time 5.84
+validation split name: 2
+ * Val Acc 95.200, Total time 5.83
+validation split name: 3
+ * Val Acc 93.600, Total time 5.81
+====================== 4 =======================
+Incremental class: Old valid output dimension: 30
+Incremental class: New Valid output dimension: 40
+=> Load Done
+Optimizer is reset!
+*****************************************
+=> Saving class model to: outputs/cifar-100/10-task/coda-p/models/repeat-1/task-4/
+=> Save Done
+validation split name: 1
+ * Val Acc 93.100, Total time 5.87
+validation split name: 2
+ * Val Acc 93.300, Total time 5.87
+validation split name: 3
+ * Val Acc 93.200, Total time 5.94
+validation split name: 4
+ * Val Acc 92.600, Total time 5.86
+====================== 5 =======================
+Incremental class: Old valid output dimension: 40
+Incremental class: New Valid output dimension: 50
+Optimizer is reset!
+*****************************************
+LR: 0.001
+Epoch:1/20
+ * Loss 0.621 | Train Acc 81.671
+LR: 0.001
+Epoch:2/20
+ * Loss 0.210 | Train Acc 93.009
+LR: 0.000996652423648492
